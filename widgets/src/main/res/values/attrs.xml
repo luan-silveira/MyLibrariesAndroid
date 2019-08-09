@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IncrementEditText">
+        <attr name="textSize" format="dimension"/>
+        <attr name="maxLength" format="integer"/>
+        <attr name="editavel" format="boolean"/>
+        <attr name="valorInicial" format="integer"/>
+        <attr name="valorMin" format="integer" />
+        <attr name="valorMax" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="DatePickerEditText">
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="HTMLTextView">
+        <attr name="src" format="reference" />
+    </declare-styleable>
+</resources>

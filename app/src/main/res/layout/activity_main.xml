@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
+    android:backgroundTint="#F8F8F8"
     android:padding="15dp">
 
 
@@ -19,6 +20,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="sdflksdflksjdflksjdlfkjsdf"/>
+
+        <br.com.luansilveira.widgets.SearchDialogSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/androidVersions" />
 
     </br.com.luansilveira.accordion.Accordion>
 
